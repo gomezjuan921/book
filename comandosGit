@@ -1,0 +1,12 @@
+comandos git
+
+git init (inicializa git)
+git status (muestra el estado de los git, si hay archivos pendientes)
+git add . o git add file.txt (para agregar al git)
+git commit -m "mensaje para identificar mi git" (con esto confirmamos los git pendientes)
+git log (muestra el log de los commit)
+git diff file.txt (muestra las diferencias de un archivo modificado vr el archivo del commit)
+git checkout file.tx (retorna al archivo original del commit)
+
+git remote add origin https://github.com/gomezjuan921/book.git (para agregar repositorio remoto)
+git push -u origin master (subir los commits al repositorio remoto)

@@ -10,3 +10,6 @@ git checkout file.tx (retorna al archivo original del commit)
 
 git remote add origin https://github.com/gomezjuan921/book.git (para agregar repositorio remoto)
 git push -u origin master (subir los commits al repositorio remoto)
+
+touch .gitignore (crear el archivo gitignore en este se pueden escribir los archivos a ignorar)
+git rm --cached -r . (para limpiar los archivos del git add)
